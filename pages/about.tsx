@@ -33,8 +33,8 @@ const AboutUs: React.FC = () => {
             <p className="text-lg">
               We believe that everyone should have the opportunity to experience
               the capabilities of ChatGPT without the hassle of logging in or
-              going through complicated setups. That's why we created ChatGPT No
-              Login.
+              going through complicated setups. That&apos;s why we created
+              ChatGPT No Login.
             </p>
           </div>
 
@@ -49,9 +49,11 @@ const AboutUs: React.FC = () => {
         </section>
         <section>
           <div className="container mx-auto text-center">
-            <p className="text-lg m-2 mt-10">We'd Love to Hear From You!</p>
+            <p className="text-lg m-2 mt-10">
+              We&apos;d Love to Hear From You!
+            </p>
             <p className="text-lg">
-              Have feedback? Reach out to us at{' '}
+              Have feedback? Reach out to us at
               <a
                 href="mailto:info@chatgptnologin.com"
                 className="text-light-green font-semibold"
