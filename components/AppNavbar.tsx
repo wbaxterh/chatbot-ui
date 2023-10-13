@@ -45,7 +45,7 @@ const AppNavbar: React.FC = () => {
           <Link href="/faq">
             <span className="text-white cursor-pointer">FAQ</span>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact-us">
             <span className="text-white cursor-pointer">Contact Us</span>
           </Link>
         </div>
