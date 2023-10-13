@@ -15,7 +15,7 @@ const UsingChatGPTForMorningRoutine: React.FC = () => {
           <p className="text-lg mb-4">
             Morning routines are essential for a productive day, especially when
             you have a busy schedule. But planning a morning routine can be
-            challenging. That's where ChatGPT comes in.
+            challenging. That&lquot;s where ChatGPT comes in.
           </p>
           {/* Add more content here */}
         </section>

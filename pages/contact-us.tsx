@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
         <section className="container mx-auto">
           <h2 className="text-4xl font-bold mb-8">Contact Us</h2>
           <p className="text-lg mb-8">
-            Have questions or feedback? Feel free to reach out. We're always
+            Have questions or feedback? Feel free to reach out. We are always
             here to help!
           </p>
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
