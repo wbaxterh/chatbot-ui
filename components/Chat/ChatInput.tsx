@@ -386,7 +386,7 @@ export const ChatInput = ({
           rel="noreferrer"
           className="underline"
         >
-          Welcome to ChatBot No Login
+          ChatBot No Login
         </a>
         .{' '}
         {t(
