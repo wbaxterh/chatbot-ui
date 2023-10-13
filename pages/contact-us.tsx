@@ -1,19 +1,25 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';
+import { SubmitHandler, useForm } from 'react-hook-form';
 
 import Head from 'next/head';
 
 import AppFooter from '@/components/AppFooter';
 import AppNavbar from '@/components/AppNavbar';
 
+interface IFormInput {
+  name: string;
+  email: string;
+  message: string;
+}
+
 const Contact: React.FC = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm<IFormInput>();
 
-  const onSubmit = (data) => {
+  const onSubmit: SubmitHandler<IFormInput> = (data) => {
     console.log(data);
     // Here you can handle the form submission, like sending the data to an API
   };
