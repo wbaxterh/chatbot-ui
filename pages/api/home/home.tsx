@@ -360,8 +360,46 @@ const Home = ({
       }}
     >
       <Head>
-        <title>Chatbot UI</title>
-        <meta name="description" content="ChatGPT but better." />
+        {/* Basic SEO Meta Tags */}
+        <title>
+          ChatGPT No Login - Interact with ChatGPT without Logging In
+        </title>
+        <meta
+          name="description"
+          content="Interact with ChatGPT without the need to log in. Use our API keys and get started instantly."
+        />
+        <meta name="keywords" content="ChatGPT, No Login, API keys, Chatbot" />
+
+        {/* Open Graph Meta Tags for Social Media */}
+        <meta
+          property="og:title"
+          content="ChatGPT No Login - Interact with ChatGPT without Logging In"
+        />
+        <meta
+          property="og:description"
+          content="Interact with ChatGPT without the need to log in. Use our API keys and get started instantly."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.chatgptnologin.com" />
+        <meta
+          property="og:image"
+          content="https://www.chatgptnologin.com/og-image.jpg"
+        />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="ChatGPT No Login - Interact with ChatGPT without Logging In"
+        />
+        <meta
+          name="twitter:description"
+          content="Interact with ChatGPT without the need to log in. Use our API keys and get started instantly."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.chatgptnologin.com/twitter-image.jpg"
+        />
         <meta
           name="viewport"
           content="height=device-height ,width=device-width, initial-scale=1, user-scalable=no"

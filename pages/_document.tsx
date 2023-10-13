@@ -18,9 +18,9 @@ export default function Document(props: Props) {
           content="Chatbot No Login"
         ></meta>
         {/* Basic SEO Meta Tags */}
-        <title>
+        {/* <title>
           ChatGPT No Login - Interact with ChatGPT without Logging In
-        </title>
+        </title> */}
         <meta
           name="description"
           content="Interact with ChatGPT without the need to log in. Use our API keys and get started instantly."

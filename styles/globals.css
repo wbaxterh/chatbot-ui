@@ -41,3 +41,19 @@ html {
 pre:has(div.codeblock) {
   padding: 0;
 }
+/* Custom Colors */
+.bg-dark-green {
+  background-color: #3d704d;
+}
+
+.text-dark-green {
+  color: #3d704d;
+}
+
+.bg-light-green {
+  background-color: #88a788;
+}
+
+.text-light-green {
+  color: #88a788;
+}
