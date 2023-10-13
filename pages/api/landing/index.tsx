@@ -2,19 +2,23 @@ import React from 'react';
 
 import Link from 'next/link';
 
+import AppFooter from '@/components/AppFooter';
+import AppNavbar from '@/components/AppNavbar';
+
 const Landing: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-900 text-white">
       {/* Navbar */}
-      <nav className="bg-gray-800 p-4">
+      {/* <nav className="bg-gray-800 p-4">
         <div className="container mx-auto">
           <h1 className="text-2xl font-semibold">ChatGPT No Login</h1>
         </div>
-      </nav>
+      </nav> */}
+      <AppNavbar />
 
       {/* Splash Section */}
-      <section className="flex-grow flex items-center justify-center text-center p-10">
-        <div>
+      <section className="flex-grow flex items-center justify-center text-center p-10 bg-header">
+        <div className="bg-overlay p-10">
           <h2 className="text-4xl font-bold mb-4">
             Chat with ChatGPT, No Login Required!
           </h2>
@@ -42,13 +46,7 @@ const Landing: React.FC = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 p-4">
-        <div className="container mx-auto text-center">
-          <p className="text-lg">
-            © 2023 ChatGPT No Login. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      <AppFooter />
     </div>
   );
 };

@@ -57,3 +57,14 @@ pre:has(div.codeblock) {
 .text-light-green {
   color: #88a788;
 }
+/* .bg-header {
+  background-image: url('../public/screenshot.png'); /* Replace with the actual image path 
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  /* height: 100vh; /* Full height */
+/* width: 100%;  Full width 
+}
+ .bg-overlay {
+  background: rgba(0, 0, 0, 1);
+} */
