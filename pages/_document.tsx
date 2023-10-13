@@ -57,6 +57,10 @@ export default function Document(props: Props) {
           name="twitter:image"
           content="https://www.chatgptnologin.com/twitter-image.jpg"
         />
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-1227415973838241"
+        ></meta>
       </Head>
       <body>
         <Main />
