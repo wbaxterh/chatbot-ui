@@ -8,8 +8,8 @@ const AppFooter: React.FC = () => {
           <Link href="/privacy-policy">
             <span className="text-light-green">Privacy Policy</span>
           </Link>
-          <Link href="/terms-of-service">
-            <span className="text-light-green">Terms of Service</span>
+          <Link href="/contact-us">
+            <span className="text-light-green">Contact Us</span>
           </Link>
         </div>
         <p className="text-lg mt-2">
