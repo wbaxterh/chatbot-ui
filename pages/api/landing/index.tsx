@@ -56,7 +56,8 @@ const Landing: React.FC = () => {
             </p>
             <ol className="list-decimal list-inside text-lg mb-4">
               <li>
-                Click the "Go to Chatbot" button to open the chat interface.
+                Click the &quot;Go to Chatbot&quot; button to open the chat
+                interface.
               </li>
               <li>Type your question or prompt in the input field.</li>
               <li>Press Enter or click the "Send" button.</li>
@@ -64,9 +65,9 @@ const Landing: React.FC = () => {
             </ol>
             <h4 className="text-xl font-semibold mb-2">Example Prompts:</h4>
             <ul className="list-disc list-inside text-lg mb-4">
-              <li>"Tell me a joke."</li>
-              <li>"What is the meaning of life?"</li>
-              <li>"How does photosynthesis work?"</li>
+              <li>&quot;Tell me a joke.&quot;</li>
+              <li>&quot;What is the meaning of life?&quot;</li>
+              <li>&quot;How does photosynthesis work?&quot;</li>
             </ul>
           </div>
           <div className="md:w-1/2 flex justify-center items-center">
