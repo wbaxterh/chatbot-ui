@@ -65,7 +65,7 @@ const AboutUs: React.FC = () => {
                 We&apos;d Love to Hear From You!
               </p>
               <p className="text-lg">
-                Have feedback? Reach out to us at
+                Have feedback? Reach out to us at{' '}
                 <a
                   href="mailto:info@chatgptnologin.com"
                   className="text-light-green font-semibold"
