@@ -60,7 +60,7 @@ const Landing: React.FC = () => {
                 interface.
               </li>
               <li>Type your question or prompt in the input field.</li>
-              <li>Press Enter or click the "Send" button.</li>
+              <li>Press Enter or click the &quot;Send&quot; button.</li>
               <li>Wait for the ChatGPT to generate a response.</li>
             </ol>
             <h4 className="text-xl font-semibold mb-2">Example Prompts:</h4>
