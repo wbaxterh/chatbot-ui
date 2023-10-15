@@ -1,4 +1,11 @@
 import React from 'react';
+import {
+  FaChild,
+  FaGift,
+  FaMoneyBillWave,
+  FaRunning,
+  FaUtensils,
+} from 'react-icons/fa';
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -86,6 +93,43 @@ const Landing: React.FC = () => {
                 </p>
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+      {/* Example Use-Cases Section */}
+      <section className="bg-gray-800 p-10">
+        <h3 className="text-2xl font-semibold mb-4 text-center">
+          Example Use-Cases
+        </h3>
+        <p className="text-lg mb-8 text-center">
+          Discover how ChatGPT can assist you in various aspects of your daily
+          life.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+          <div className="bg-gray-900 p-4 rounded-lg">
+            <FaGift className="text-4xl mb-4 mx-auto" />
+            <h4 className="text-xl font-semibold mb-2">Gift Ideas</h4>
+            <p>Get creative gift suggestions for your loved ones.</p>
+          </div>
+          <div className="bg-gray-900 p-4 rounded-lg">
+            <FaRunning className="text-4xl mb-4 mx-auto" />
+            <h4 className="text-xl font-semibold mb-2">Exercise Plans</h4>
+            <p>Receive personalized workout routines.</p>
+          </div>
+          <div className="bg-gray-900 p-4 rounded-lg">
+            <FaChild className="text-4xl mb-4 mx-auto" />
+            <h4 className="text-xl font-semibold mb-2">Kids' Activities</h4>
+            <p>Find fun and educational activities for children.</p>
+          </div>
+          <div className="bg-gray-900 p-4 rounded-lg">
+            <FaUtensils className="text-4xl mb-4 mx-auto" />
+            <h4 className="text-xl font-semibold mb-2">Cooking Ideas</h4>
+            <p>Explore new recipes and cooking tips.</p>
+          </div>
+          <div className="bg-gray-900 p-4 rounded-lg">
+            <FaMoneyBillWave className="text-4xl mb-4 mx-auto" />
+            <h4 className="text-xl font-semibold mb-2">Financial Advice</h4>
+            <p>Get insights on budgeting and investments.</p>
           </div>
         </div>
       </section>
