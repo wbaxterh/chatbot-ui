@@ -15,12 +15,15 @@ export const ModelSelect = () => {
     handleUpdateConversation,
     dispatch: homeDispatch,
   } = useContext(HomeContext);
+  // Filter out to only include the GPT-3.5 model
+  const filteredModels = models.filter((model) => model.id === 'gpt-3.5-turbo');
+  console.log('Filtered Models == ', filteredModels);
 
   const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     selectedConversation &&
       handleUpdateConversation(selectedConversation, {
         key: 'model',
-        value: models.find(
+        value: filteredModels.find(
           (model) => model.id === e.target.value,
         ) as OpenAIModel,
       });
@@ -38,7 +41,7 @@ export const ModelSelect = () => {
           value={selectedConversation?.model?.id || defaultModelId}
           onChange={handleChange}
         >
-          {models.map((model) => (
+          {filteredModels.map((model) => (
             <option
               key={model.id}
               value={model.id}

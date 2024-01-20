@@ -14,6 +14,13 @@ const posts = [
     date: 'October 20, 2023',
     image: '/bgHeader.png',
   },
+  {
+    id: 'streamlining-web-dev-with-chatgpt',
+    title: "Streamlining Web Development with ChatGPT: A Developer's Companion",
+    author: 'Administrator',
+    date: 'January 20, 2024', // You can adjust the date as needed
+    image: '/blog/bgHeaderWebDev.png', // Replace with your preferred image path
+  },
   // Add more posts here
 ];
 

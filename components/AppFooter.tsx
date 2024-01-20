@@ -13,7 +13,7 @@ const AppFooter: React.FC = () => {
           </Link>
         </div>
         <p className="text-lg mt-2">
-          © 2023 ChatGPT No Login. All rights reserved.
+          © 2024 ChatGPT No Login. All rights reserved.
         </p>
       </div>
     </footer>
