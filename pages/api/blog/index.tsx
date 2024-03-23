@@ -21,6 +21,13 @@ const posts = [
     date: 'January 20, 2024', // You can adjust the date as needed
     image: '/blog/bgHeaderWebDev.png', // Replace with your preferred image path
   },
+  {
+    id: 'using-chatgpt-for-cooking-tasks',
+    title: 'Enhancing Your Kitchen Experience with ChatGPT: A Recipe Guide',
+    author: 'Administrator',
+    date: 'March 23, 2024', // You can adjust the date as needed
+    image: '/blog/kitchen.webp', // Replace with your preferred image path
+  },
   // Add more posts here
 ];
 
