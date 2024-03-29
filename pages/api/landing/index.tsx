@@ -82,7 +82,7 @@ const Landing: React.FC = () => {
               <h4 className="text-xl font-semibold mb-2">Screenshot:</h4>
               {/* Replace the placeholder with your actual screenshot */}
               <Image
-                src="/screenshot.png"
+                src="/screenshots/screenshot.webp"
                 alt="ChatGPT Screenshot"
                 width={500}
                 height={300}
