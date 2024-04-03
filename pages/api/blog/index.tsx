@@ -10,23 +10,30 @@ const posts = [
   {
     id: 'using-chatgpt-for-morning-routine',
     title: 'Using ChatGPT to Create a Morning Routine',
-    author: 'Administrator',
+    author: 'Evan Reed',
     date: 'October 20, 2023',
     image: '/bgHeader.png',
   },
   {
     id: 'streamlining-web-dev-with-chatgpt',
     title: "Streamlining Web Development with ChatGPT: A Developer's Companion",
-    author: 'Administrator',
+    author: 'Evan Reed',
     date: 'January 20, 2024', // You can adjust the date as needed
     image: '/blog/bgHeaderWebDev.png', // Replace with your preferred image path
   },
   {
     id: 'using-chatgpt-for-cooking-tasks',
     title: 'Enhancing Your Kitchen Experience with ChatGPT: A Recipe Guide',
-    author: 'Administrator',
+    author: 'Lia Harper',
     date: 'March 23, 2024', // You can adjust the date as needed
     image: '/blog/kitchen.webp', // Replace with your preferred image path
+  },
+  {
+    id: 'fun-kids-activities',
+    title: 'Fun and Educational Activities for Kids with ChatGPT',
+    author: 'Lia Harper',
+    date: 'April 3, 2024', // You can adjust the date as needed
+    image: '/blog/child-coloring-creative-activity.webp', // Replace with your preferred image path
   },
   // Add more posts here
 ];
