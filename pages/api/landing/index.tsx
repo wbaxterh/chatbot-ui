@@ -23,7 +23,6 @@ const Landing: React.FC = () => {
         </div>
       </nav> */}
       <AppNavbar />
-
       {/* Splash Section */}
       <section className="flex-grow flex items-center justify-center text-center p-10 bg-header">
         <div className="bg-overlay p-10">
@@ -40,7 +39,6 @@ const Landing: React.FC = () => {
           </Link>
         </div>
       </section>
-
       {/* Information Sections */}
       <section className="bg-gray-800 p-10">
         <h3 className="text-2xl font-semibold mb-4">About the Project</h3>
@@ -133,7 +131,45 @@ const Landing: React.FC = () => {
           </div>
         </div>
       </section>
-
+      {/* Why Choose ChatGPT No Login Section */}
+      <section className="bg-overlay p-10">
+        <h3 className="text-2xl font-semibold mb-4 text-center">
+          Why Choose ChatGPT No Login?
+        </h3>
+        <p className="text-lg mb-8 text-center">
+          We believe in making advanced AI technology accessible to everyone.
+          Here's why you should use our platform:
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="bg-gray-800 p-4 rounded-lg text-center">
+            <i className="fas fa-user-secret text-4xl mb-4 mx-auto"></i>{' '}
+            {/* Use Font Awesome icon */}
+            <h4 className="text-xl font-semibold mb-2">Privacy First</h4>
+            <p>
+              No account needed. Enjoy ChatGPT's capabilities anonymously,
+              without worrying about data tracking.
+            </p>
+          </div>
+          <div className="bg-gray-800 p-4 rounded-lg text-center">
+            <i className="fas fa-rocket text-4xl mb-4 mx-auto"></i>{' '}
+            {/* Use Font Awesome icon */}
+            <h4 className="text-xl font-semibold mb-2">Fast and Free</h4>
+            <p>
+              Instant access to ChatGPT. No sign-ups, no fees. Just pure,
+              unbridled interaction with AI.
+            </p>
+          </div>
+          <div className="bg-gray-800 p-4 rounded-lg text-center">
+            <i className="fas fa-globe-americas text-4xl mb-4 mx-auto"></i>{' '}
+            {/* Use Font Awesome icon */}
+            <h4 className="text-xl font-semibold mb-2">Global Access</h4>
+            <p>
+              Wherever you are, access ChatGPT with just a click. All you need
+              is an internet connection.
+            </p>
+          </div>
+        </div>
+      </section>
       {/* Footer */}
       <AppFooter />
     </div>

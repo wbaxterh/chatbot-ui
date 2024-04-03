@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
               <textarea
                 id="message"
                 {...register('message', { required: true })}
-                className="w-full p-2 rounded mt-1 h-32"
+                className="w-full p-2 rounded mt-1 h-32 text-black"
               ></textarea>
               {errors.message && (
                 <span className="text-red-600">Message is required</span>
