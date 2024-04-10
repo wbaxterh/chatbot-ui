@@ -35,6 +35,13 @@ const posts = [
     date: 'April 3, 2024', // You can adjust the date as needed
     image: '/blog/child-coloring-creative-activity.webp', // Replace with your preferred image path
   },
+  {
+    id: 'mastering-algebra-with-chatgpt',
+    title: 'Mastering Algebra with ChatGPT',
+    author: 'Evan Reed',
+    date: 'April 10, 2024', // You can adjust the date as needed
+    image: '/blog/person-writing-algebra.webp', // Replace with your preferred image path
+  },
   // Add more posts here
 ];
 
