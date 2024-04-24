@@ -167,6 +167,11 @@ const Landing: React.FC = () => {
               Wherever you are, access ChatGPT with just a click. All you need
               is an internet connection.
             </p>
+            <i>
+              * if the chatbot is down - bookmark our page and come back in a
+              few days, our tokens are limited. Thanks for your patience while
+              we work on fixing this
+            </i>
           </div>
         </div>
       </section>
