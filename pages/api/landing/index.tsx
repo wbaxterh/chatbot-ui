@@ -167,13 +167,22 @@ const Landing: React.FC = () => {
               Wherever you are, access ChatGPT with just a click. All you need
               is an internet connection.
             </p>
-            <i>
-              * if the chatbot is down - bookmark our page and come back in a
-              few days, our tokens are limited. Thanks for your patience while
-              we work on fixing this
-            </i>
           </div>
         </div>
+        <p className="my-2">
+          <i>
+            * If the chatbot is down, let us know by{' '}
+            <Link
+              href="/contact-us"
+              className="link-opacity-100 link-offset-2 link-underline link-underline-opacity-100"
+            >
+              <span className="text-light-green">contacting us</span>
+            </Link>
+            . Bookmark our page and come back in a few days, we are a small team
+            and our tokens are limited. Thanks for your patience while we work
+            on keeping our services up 24/7.
+          </i>
+        </p>
       </section>
       {/* Footer */}
       <AppFooter />
