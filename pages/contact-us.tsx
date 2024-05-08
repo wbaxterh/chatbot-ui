@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { SubmitHandler, useForm } from 'react-hook-form';
 
 import Head from 'next/head';
@@ -18,10 +18,31 @@ const Contact: React.FC = () => {
     handleSubmit,
     formState: { errors },
   } = useForm<IFormInput>();
+  const [message, setMessage] = useState('');
+  const [isError, setIsError] = useState(false);
 
-  const onSubmit: SubmitHandler<IFormInput> = (data) => {
-    console.log(data);
-    // Here you can handle the form submission, like sending the data to an API
+  const onSubmit: SubmitHandler<IFormInput> = async (data) => {
+    try {
+      const response = await fetch('/api/sendmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+      if (response.ok) {
+        setMessage('Email sent successfully!');
+        setIsError(false);
+        //reset(); // Reset form fields after successful submission
+      } else {
+        setMessage('Failed to send email. Please try again.');
+        setIsError(true);
+      }
+    } catch (error) {
+      console.error('Failed to send email', error);
+      setMessage('An error occurred. Please try again.');
+      setIsError(true);
+    }
   };
 
   return (
@@ -38,6 +59,15 @@ const Contact: React.FC = () => {
       <main className="flex-grow p-10">
         <section className="container mx-auto">
           <h2 className="text-4xl font-bold mb-8">Contact Us</h2>
+          {message && (
+            <div
+              className={`p-4 mb-4 text-lg rounded ${
+                isError ? 'bg-red-600' : 'bg-green-500'
+              }`}
+            >
+              {message}
+            </div>
+          )}
           <p className="text-lg mb-8">
             Have questions or feedback? Feel free to reach out. We are always
             here to help!
@@ -50,7 +80,7 @@ const Contact: React.FC = () => {
               <input
                 id="name"
                 {...register('name', { required: true })}
-                className="w-full p-2 rounded mt-1"
+                className="w-full p-2 rounded mt-1 text-black"
               />
               {errors.name && (
                 <span className="text-red-600">Name is required</span>
@@ -64,7 +94,7 @@ const Contact: React.FC = () => {
                 id="email"
                 type="email"
                 {...register('email', { required: true })}
-                className="w-full p-2 rounded mt-1"
+                className="w-full p-2 rounded mt-1 text-black"
               />
               {errors.email && (
                 <span className="text-red-600">Email is required</span>
