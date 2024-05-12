@@ -46,7 +46,7 @@ const Landing: React.FC = () => {
           This project aims to provide a seamless experience for users to
           interact with ChatGPT without the need for logging in.
         </p>
-        <Link href="#about">
+        <Link href="/about">
           <p className="text-light-green font-semibold">Learn More</p>
         </Link>
       </section>

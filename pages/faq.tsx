@@ -28,13 +28,13 @@ const FAQ: React.FC = () => {
   ];
 
   const answers = [
-    'Yes, ChatGPT No Login is a free service.',
-    'No, you can use ChatGPT No Login without registering.',
-    'Currently, ChatGPT No Login is only available in English.',
-    "ChatGPT is designed to be highly accurate, but it's not perfect. Always verify any critical information.",
-    'We take data security seriously and employ various measures to protect your information.',
-    'You can reach out to us via our Contact Us page to report any bugs or issues.',
-    'Please refer to our Terms of Service for information on commercial usage.',
+    'Absolutely! At chatgptnologin.com, we provide a free service that leverages our API keys, allowing you to interact with ChatGPT without any cost. This platform is designed to be accessible, enabling you to experience the capabilities of ChatGPT without financial barriers.',
+    'No registration is necessary at chatgptnologin.com. We value your privacy and convenience, offering you direct access to ChatGPT through our user-friendly GUI. Simply visit our website and start interacting with ChatGPT right away, no sign-up required.',
+    'Currently, our service at chatgptnologin.com is primarily available in English. We are actively exploring ways to incorporate multiple languages to accommodate a wider audience and provide a more inclusive experience. Stay tuned for updates as we expand our language offerings.',
+    'ChatGPT at chatgptnologin.com strives to provide highly accurate responses. Our platform utilizes the latest models of ChatGPT, engineered to understand and generate responses that are contextually relevant. While it is a robust tool, we recommend users apply critical thinking for complex or sensitive queries.',
+    'Ensuring the security of your data is a top priority at chatgptnologin.com. We implement stringent security measures to protect your interactions and maintain confidentiality. Our platform operates with a commitment to privacy, requiring no registration or personal data for basic use.',
+    'If you encounter any technical issues or bugs while using chatgptnologin.com, please contact us through the feedback mechanism provided on our site. We are dedicated to improving your experience and will address your concerns promptly to ensure seamless service.',
+    'For commercial use of ChatGPT through chatgptnologin.com, please refer to our Terms of Service. We support various business applications and can discuss custom solutions to meet your organizational needs. Contact us to learn more about our commercial licenses and partnerships.',
   ];
 
   return (
