@@ -47,7 +47,7 @@ const posts = [
     title: 'Create a Financial Advisor with ChatGPT',
     author: 'Lia Harper',
     date: 'May 12, 2024', // You can adjust the date as needed
-    image: '/blog/person-writing-algebra.webp', // Replace with your preferred image path
+    image: '/blog/chat-investment.webp', // Replace with your preferred image path
   },
   // Add more posts here
 ];
